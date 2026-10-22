@@ -9,29 +9,47 @@ public class PlayerController : MonoBehaviour
     public float rayLength = 1.3f;
     public LayerMask groundLayer;
 
+    public float flySpeed = 5f;
+
     private Rigidbody2D rb;
     private Animator animator;
     private SpriteRenderer spriteRenderer;
+
     private bool isGrounded;
+    private bool isFlying = false;
+    private float originalGravity;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+
+        // Guardar la gravedad original
+        originalGravity = rb.gravityScale;
     }
 
     void Update()
     {
-        // Movimiento horizontal
+        // Activar o desactivar el vuelo con F
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            isFlying = !isFlying;
+
+            if (isFlying)
+            {
+                rb.gravityScale = 0f;
+                rb.linearVelocity = Vector2.zero;
+            }
+            else
+            {
+                rb.gravityScale = originalGravity;
+            }
+        }
+
         float moveInput = Input.GetAxis("Horizontal");
 
-        rb.linearVelocity = new Vector2(
-            moveInput * speed,
-            rb.linearVelocity.y
-        );
-
-        // Girar el personaje según la dirección
+        // Girar el personaje
         if (moveInput > 0.1f)
         {
             spriteRenderer.flipX = false;
@@ -41,26 +59,50 @@ public class PlayerController : MonoBehaviour
             spriteRenderer.flipX = true;
         }
 
-        // Detectar si está tocando el suelo
-        isGrounded = IsGrounded();
-
-        // Saltar
-        if (isGrounded && Input.GetButtonDown("Jump"))
+        // Movimiento durante el vuelo
+        if (isFlying)
         {
-            Jump();
-            isGrounded = false;
+            float verticalInput = Input.GetAxis("Vertical");
+
+            rb.linearVelocity = new Vector2(
+                moveInput * flySpeed,
+                verticalInput * flySpeed
+            );
+
+            animator.SetBool("EstaVolando", true);
+            animator.SetBool("EstaCaminando", false);
+            animator.SetBool("EstaSaltando", false);
         }
+        else
+        {
+            // Movimiento normal
+            rb.linearVelocity = new Vector2(
+                moveInput * speed,
+                rb.linearVelocity.y
+            );
 
-        // Controlar las animaciones
-        animator.SetBool(
-            "EstaCaminando",
-            Mathf.Abs(moveInput) > 0.1f && isGrounded
-        );
+            isGrounded = IsGrounded();
 
-        animator.SetBool(
-            "EstaSaltando",
-            !isGrounded
-        );
+            // Saltar
+            if (isGrounded && Input.GetButtonDown("Jump"))
+            {
+                Jump();
+                isGrounded = false;
+            }
+
+            // Animaciones normales
+            animator.SetBool("EstaVolando", false);
+
+            animator.SetBool(
+                "EstaCaminando",
+                Mathf.Abs(moveInput) > 0.1f && isGrounded
+            );
+
+            animator.SetBool(
+                "EstaSaltando",
+                !isGrounded
+            );
+        }
     }
 
     void Jump()
