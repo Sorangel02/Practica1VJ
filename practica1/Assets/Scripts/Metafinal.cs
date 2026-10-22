@@ -14,7 +14,7 @@ public class Metafinal : MonoBehaviour
         if (collision.gameObject.name == "Jugador")
         {
             mensajeFinal.SetActive(true);
-            Debug.Log("¡Práctica No. 1 realizada!");
+            Debug.Log("¡Práctica No. 2 realizada!");
         }
     }
 }
