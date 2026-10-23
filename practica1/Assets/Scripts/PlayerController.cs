@@ -1,6 +1,7 @@
 
 
 using UnityEngine;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
@@ -18,6 +19,18 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded;
     private bool isFlying = false;
     private float originalGravity;
+
+
+    // controlar y mostrar la cantidad de gemas recolectadas
+    public TextMeshProUGUI contadorJuego;
+    private int gemasRecogidas = 0;
+
+
+
+
+    // Variables para controlar la aparición de la Super Gema Legendaria
+    public GameObject superGemaLegendaria;
+    private int totalGemasNormales = 10;
 
     void Start()
     {
@@ -140,4 +153,36 @@ public class PlayerController : MonoBehaviour
             transform.position + Vector3.down * rayLength
         );
     }
+
+    // Detectar cuando el jugador recoge una gema
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Collectible"))
+        {
+            // Comprobar si es la Super Gema Legendaria
+            if (collision.gameObject == superGemaLegendaria)
+            {
+                // La gema legendaria otorga 10 puntos
+                gemasRecogidas += 10;
+            }
+            else
+            {
+                // Cada gema normal otorga 1 punto
+                gemasRecogidas++;
+
+                // Activar la gema legendaria al recoger todas las normales
+                if (gemasRecogidas == totalGemasNormales)
+                {
+                    superGemaLegendaria.SetActive(true);
+                }
+            }
+
+            // Actualizar el contador en pantalla
+            contadorJuego.text = "Gemas: " + gemasRecogidas;
+
+            // Eliminar la gema recogida
+            Destroy(collision.gameObject);
+        }
+    }
+
 }

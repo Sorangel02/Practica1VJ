@@ -1,0 +1,678 @@
+fileFormatVersion: 2
+guid: a4fba557d904c0645b3b1b8019791014
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5192859399522557069
+    second: Gema_Azul_0
+  - first:
+      213: -8171659870070367238
+    second: Gema_Azul_1
+  - first:
+      213: -6823037296501796218
+    second: Gema_Azul_2
+  - first:
+      213: -5552719134169044550
+    second: Gema_Azul_3
+  - first:
+      213: -8867280868074496688
+    second: Gema_Azul_4
+  - first:
+      213: 4632204985740262776
+    second: Gema_Azul_5
+  - first:
+      213: -8203788661410113593
+    second: Gema_Azul_6
+  - first:
+      213: -3841337851810236663
+    second: Gema_Azul_7
+  - first:
+      213: 2896711143052303201
+    second: Gema_Azul_8
+  - first:
+      213: -9152421574483818845
+    second: Gema_Azul_9
+  - first:
+      213: 5073022414968205450
+    second: Gema_Azul_10
+  - first:
+      213: 3373300947212398787
+    second: Gema_Azul_11
+  - first:
+      213: -2093675843735744101
+    second: Gema_Azul_12
+  - first:
+      213: 6258966793576167806
+    second: Gema_Azul_13
+  - first:
+      213: 6483962838688868791
+    second: Gema_Azul_14
+  - first:
+      213: 6671053168710824311
+    second: Gema_Azul_15
+  - first:
+      213: -6714950936585405402
+    second: Gema_Azul_16
+  - first:
+      213: -2611843998382567974
+    second: Gema_Azul_17
+  - first:
+      213: -4956281806480969801
+    second: Gema_Azul_18
+  - first:
+      213: -1938217253255649468
+    second: Gema_Azul_19
+  - first:
+      213: 6138683711051160313
+    second: Gema_Azul_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gema_Azul_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 760
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373e8ea93e14fe7b0800000000000000
+      internalID: -5192859399522557069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gema_Azul_1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 743
+        width: 26
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb142bb4ae689e80800000000000000
+      internalID: -8171659870070367238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gema_Azul_2
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 737
+        width: 12
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682d4c49ab3bf41a0800000000000000
+      internalID: -6823037296501796218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gema_Azul_3
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 729
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9e656fd57c0f2b0800000000000000
+      internalID: -5552719134169044550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gema_Azul_4
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 743
+        width: 11
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d5dc6080711f480800000000000000
+      internalID: -8867280868074496688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gema_Azul_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 396
+        height: 759
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d77dd54e5e84040800000000000000
+      internalID: 4632204985740262776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gema_Azul_6
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 743
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7d5409da9462e80800000000000000
+      internalID: -8203788661410113593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gema_Azul_7
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 741
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907b6987393d0bac0800000000000000
+      internalID: -3841337851810236663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gema_Azul_8
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 733
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b5c8aef6f233820800000000000000
+      internalID: 2896711143052303201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gema_Azul_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a64542d1111cf080800000000000000
+      internalID: -9152421574483818845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gema_Azul_10
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 64
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8036c5220ff66640800000000000000
+      internalID: 5073022414968205450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gema_Azul_11
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 49
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c07517c65f50de20800000000000000
+      internalID: 3373300947212398787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gema_Azul_12
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 72
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b919053b9e4c1f2e0800000000000000
+      internalID: -2093675843735744101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gema_Azul_13
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 64
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79b21823215cd650800000000000000
+      internalID: 6258966793576167806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gema_Azul_14
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 33
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b922e829d9abf950800000000000000
+      internalID: 6483962838688868791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gema_Azul_15
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 30
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771b0ce1387549c50800000000000000
+      internalID: 6671053168710824311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gema_Azul_16
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 45
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c76a453b3bfc2a0800000000000000
+      internalID: -6714950936585405402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gema_Azul_17
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 37
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: addcbabb8bdd0cbd0800000000000000
+      internalID: -2611843998382567974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gema_Azul_18
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 47
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf68fdd4ffb73bb0800000000000000
+      internalID: -4956281806480969801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gema_Azul_19
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 0
+        width: 121
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447e9226da11a15e0800000000000000
+      internalID: -1938217253255649468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gema_Azul_20
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 29
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa5ea1af4cf03550800000000000000
+      internalID: 6138683711051160313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gema_Azul_0: -5192859399522557069
+      Gema_Azul_1: -8171659870070367238
+      Gema_Azul_10: 5073022414968205450
+      Gema_Azul_11: 3373300947212398787
+      Gema_Azul_12: -2093675843735744101
+      Gema_Azul_13: 6258966793576167806
+      Gema_Azul_14: 6483962838688868791
+      Gema_Azul_15: 6671053168710824311
+      Gema_Azul_16: -6714950936585405402
+      Gema_Azul_17: -2611843998382567974
+      Gema_Azul_18: -4956281806480969801
+      Gema_Azul_19: -1938217253255649468
+      Gema_Azul_2: -6823037296501796218
+      Gema_Azul_20: 6138683711051160313
+      Gema_Azul_3: -5552719134169044550
+      Gema_Azul_4: -8867280868074496688
+      Gema_Azul_5: 4632204985740262776
+      Gema_Azul_6: -8203788661410113593
+      Gema_Azul_7: -3841337851810236663
+      Gema_Azul_8: 2896711143052303201
+      Gema_Azul_9: -9152421574483818845
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

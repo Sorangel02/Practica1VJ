@@ -1,0 +1,756 @@
+fileFormatVersion: 2
+guid: 827cd9efe5eb38646952db5b51653b50
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -346248719286442302
+    second: Super_Gema_Legendaria_0
+  - first:
+      213: -7214752102982919681
+    second: Super_Gema_Legendaria_1
+  - first:
+      213: -347021120458506989
+    second: Super_Gema_Legendaria_2
+  - first:
+      213: -3748463637433303142
+    second: Super_Gema_Legendaria_3
+  - first:
+      213: 4861798959457005992
+    second: Super_Gema_Legendaria_4
+  - first:
+      213: -221899121126851937
+    second: Super_Gema_Legendaria_5
+  - first:
+      213: 5993752316355022321
+    second: Super_Gema_Legendaria_6
+  - first:
+      213: -1727099769555220467
+    second: Super_Gema_Legendaria_7
+  - first:
+      213: -1943249021189834356
+    second: Super_Gema_Legendaria_8
+  - first:
+      213: 1719752057984114090
+    second: Super_Gema_Legendaria_9
+  - first:
+      213: 9145553216109689342
+    second: Super_Gema_Legendaria_10
+  - first:
+      213: -8351921973227824376
+    second: Super_Gema_Legendaria_11
+  - first:
+      213: 3779978695181658340
+    second: Super_Gema_Legendaria_12
+  - first:
+      213: -6607366327559889294
+    second: Super_Gema_Legendaria_13
+  - first:
+      213: -70887515129312025
+    second: Super_Gema_Legendaria_14
+  - first:
+      213: -606276678036632344
+    second: Super_Gema_Legendaria_15
+  - first:
+      213: 8567767988712726718
+    second: Super_Gema_Legendaria_16
+  - first:
+      213: 1903115087919734804
+    second: Super_Gema_Legendaria_17
+  - first:
+      213: -3488724509176614280
+    second: Super_Gema_Legendaria_18
+  - first:
+      213: -3936964357726761008
+    second: Super_Gema_Legendaria_19
+  - first:
+      213: -560393988242028972
+    second: Super_Gema_Legendaria_20
+  - first:
+      213: -4744062685794331657
+    second: Super_Gema_Legendaria_21
+  - first:
+      213: -5815844418552924664
+    second: Super_Gema_Legendaria_22
+  - first:
+      213: -8851948301766324714
+    second: Super_Gema_Legendaria_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Super_Gema_Legendaria_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1345
+        height: 1154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c66ff2df90e13bf0800000000000000
+      internalID: -346248719286442302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super_Gema_Legendaria_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 973
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9533f003d00eb90800000000000000
+      internalID: -7214752102982919681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super_Gema_Legendaria_2
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 954
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d338921222f2bf0800000000000000
+      internalID: -347021120458506989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super_Gema_Legendaria_3
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 975
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9fb1559e28cafbc0800000000000000
+      internalID: -3748463637433303142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super_Gema_Legendaria_4
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 934
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a17ccb0564987340800000000000000
+      internalID: 4861798959457005992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super_Gema_Legendaria_5
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 925
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a334dcce7abecf0800000000000000
+      internalID: -221899121126851937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super_Gema_Legendaria_6
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 829
+        width: 94
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd0408b9f51e2350800000000000000
+      internalID: 5993752316355022321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super_Gema_Legendaria_7
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 907
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08800009eb1808e0800000000000000
+      internalID: -1727099769555220467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super_Gema_Legendaria_8
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 822
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89badd9f413805e0800000000000000
+      internalID: -1943249021189834356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super_Gema_Legendaria_9
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 765
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aadd3e59269cdd710800000000000000
+      internalID: 1719752057984114090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super_Gema_Legendaria_10
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 749
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef936a0e1388bee70800000000000000
+      internalID: 9145553216109689342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super_Gema_Legendaria_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 571
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80bd9f93733081c80800000000000000
+      internalID: -8351921973227824376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super_Gema_Legendaria_12
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 533
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8e8d8989e257430800000000000000
+      internalID: 3779978695181658340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super_Gema_Legendaria_13
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 473
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e5ae8155bed44a0800000000000000
+      internalID: -6607366327559889294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super_Gema_Legendaria_14
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 487
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec05b93e28240ff0800000000000000
+      internalID: -70887515129312025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super_Gema_Legendaria_15
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 420
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ecc502d2921697f0800000000000000
+      internalID: -606276678036632344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super_Gema_Legendaria_16
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 400
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb06f2d7793d6e670800000000000000
+      internalID: 8567767988712726718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super_Gema_Legendaria_17
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 368
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410642ed619396a10800000000000000
+      internalID: 1903115087919734804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super_Gema_Legendaria_18
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 327
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872345ffa8f859fc0800000000000000
+      internalID: -3488724509176614280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super_Gema_Legendaria_19
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 313
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df825c86c71d59c0800000000000000
+      internalID: -3936964357726761008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super_Gema_Legendaria_20
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 272
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456c19403a41938f0800000000000000
+      internalID: -560393988242028972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super_Gema_Legendaria_21
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 291
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f31b055f14b92eb0800000000000000
+      internalID: -4744062685794331657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super_Gema_Legendaria_22
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 149
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806f633a058f94fa0800000000000000
+      internalID: -5815844418552924664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Super_Gema_Legendaria_23
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 17
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e881f4bef872580800000000000000
+      internalID: -8851948301766324714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Super_Gema_Legendaria_0: -346248719286442302
+      Super_Gema_Legendaria_1: -7214752102982919681
+      Super_Gema_Legendaria_10: 9145553216109689342
+      Super_Gema_Legendaria_11: -8351921973227824376
+      Super_Gema_Legendaria_12: 3779978695181658340
+      Super_Gema_Legendaria_13: -6607366327559889294
+      Super_Gema_Legendaria_14: -70887515129312025
+      Super_Gema_Legendaria_15: -606276678036632344
+      Super_Gema_Legendaria_16: 8567767988712726718
+      Super_Gema_Legendaria_17: 1903115087919734804
+      Super_Gema_Legendaria_18: -3488724509176614280
+      Super_Gema_Legendaria_19: -3936964357726761008
+      Super_Gema_Legendaria_2: -347021120458506989
+      Super_Gema_Legendaria_20: -560393988242028972
+      Super_Gema_Legendaria_21: -4744062685794331657
+      Super_Gema_Legendaria_22: -5815844418552924664
+      Super_Gema_Legendaria_23: -8851948301766324714
+      Super_Gema_Legendaria_3: -3748463637433303142
+      Super_Gema_Legendaria_4: 4861798959457005992
+      Super_Gema_Legendaria_5: -221899121126851937
+      Super_Gema_Legendaria_6: 5993752316355022321
+      Super_Gema_Legendaria_7: -1727099769555220467
+      Super_Gema_Legendaria_8: -1943249021189834356
+      Super_Gema_Legendaria_9: 1719752057984114090
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
