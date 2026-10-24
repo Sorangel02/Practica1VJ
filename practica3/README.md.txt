@@ -1,1 +1,0 @@
-Práctica 3 - Objetos 2D en Unity
